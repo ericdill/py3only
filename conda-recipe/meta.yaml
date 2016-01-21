@@ -3,7 +3,7 @@ package:
   version: 1.0.0
 
 source:
-  git_url: ./
+  git_url: ../
 
 build:
   number: 0
@@ -16,4 +16,4 @@ requirements:
 
 test:
   imports:
-    py3only
+    - py3only
