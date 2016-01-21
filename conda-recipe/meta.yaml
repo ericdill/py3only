@@ -1,0 +1,19 @@
+package:
+  name: py3only
+  version: 1.0.0
+
+source:
+  git_url: ./
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python >3
+  run:
+    - python >3
+
+test:
+  imports:
+    py3only
